@@ -1,0 +1,5 @@
+Başlangıçta singleton pattern kullanılmadı. Ve her bir class da Logger için bir instance oluşturuldu. Ve program çalıştırıldığı zaman 
+sedece index.js deki loglar ekrana basıldı.
+
+Finishde ise singleton pattern kullanılarak Logger için tek bir instance kullanıldı. Ve diğer tüm classlarda önce bir instace varmı diğe
+kontrol edildi. Yoksa instance oluşturuldu. index.js çalıştırıldığında ise tek bir instance olduğu için tüm classlardaki loglar ekrana basıldı.
